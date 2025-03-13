@@ -27,6 +27,9 @@ body {
     overflow: hidden;
     transition: color 0.4s;
 }
+.resume-btn a {
+    color: white;
+}
 .resume-btn::before,
 .resume-btn::after {
     content: '';
