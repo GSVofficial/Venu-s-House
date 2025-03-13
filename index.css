@@ -17,6 +17,7 @@ body {
     height: 100vh;
 }
 .resume-btn {
+     margin-left: 40%;
     position: relative;
     display: inline-block;
     padding: 12px 24px;
@@ -29,7 +30,6 @@ body {
 }
 .resume-btn a {
     color: white;
-    margin-left: 40%;
 }
 }
 .resume-btn::before,
