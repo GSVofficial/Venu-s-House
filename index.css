@@ -29,6 +29,8 @@ body {
 }
 .resume-btn a {
     color: white;
+    margin-left: 40%;
+}
 }
 .resume-btn::before,
 .resume-btn::after {
