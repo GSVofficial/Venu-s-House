@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venu's PortFolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <nav class="navbar">
+        <h2>PortFolio</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <div id="home">
+        <div class="profile-img">
+            <img class="profile" src="img/venu.png" alt="">
+        </div>
+        <div class="animated-text">
+            <span>F</span><span>r</span><span>o</span><span>n</span><span>t</span><span>e</span><span>n</span><span>d</span>&nbsp;
+            <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+        </div>
+        <div class="objective">
+            A highly motivated and detail-oriented Frontend Developer with a passion for creating responsive, user-friendly, and visually appealing web applications. Skilled in HTML, CSS, JavaScript, and modern frameworks to deliver seamless user experiences. Seeking an opportunity to leverage my technical skills and creativity to develop dynamic, interactive, and accessible web solutions while continuously enhancing my expertise in frontend technologies.
+        </div>
+    </div><br>
+    <div id="skills">
+       <p class="skill-title">SKILLS</p>
+        <div class="card">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project">
+        <p class="project-title">MINI PROJECTS</p>
+        <div class="project-container">
+            <div class="card1">
+                <img class="img1" src="img/books.png" alt="Project 1">
+                <a href="projects/guidency.html">check</a>
+            </div>
+            <div class="card2">
+                <img class="img2" src="img/foodie.png" alt="Project 2">
+                <a href="projects/project 2.html">check</a>
+            </div>
+            <div class="card3">
+                <img class="img3" src="img/game.png" alt="Project 3">
+                <a href="projects/game.html">check</a>
+            </div>
+            <div class="card4">
+                <img class="img4" src="img/todo list.png" alt="Project 4">
+                <a href="projects/todo.html">check</a>
+            </div>
+            <div class="card5">
+                <img src="img/e-commerce.png" alt="Project 5" class="img5">
+                <a href="projects/e-commerce.html">check</a>
+            </div>
+            <div class="card6">
+                <img src="img/frontend book.png" alt="Project 6" class="img6">
+                <a href="projects/index1.html">check</a>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <p class="contact-title">CONTACT</p>
+        <p class="contact-head">Let's Be In Touch</p>
+        <div class="contact-info">
+            <div class="contact-box">VENU</div>
+            <div class="contact-box">INFORMATION TECHNOLOGY</div>
+            <div class="contact-box">6381567863</div>
+            <div class="contact-box">venugsv9894@gmail.com</div>
+        </div>
+        <div class="contact-info2">
+            <div class="contact-box1"><a href="https://wa.me/916381567863"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA/JJREFUWEftl1esT1kUxn9mGKMkWgYPOokSTAjRhSCiJVqYkWhhRCcSL0RCCOGBaCF6m8GDIJmS0UW0SESNFx70XqP3/ck6sp172v/el/tgv9x7/mevvb7zrbW+tXYRCtkqUsjw8B1QWkQKwlBxoCVQBagMFAXuADeAk8DzNOdR7/MDqD8wFOgElIhx+h44BGwBNgGfsoLLBVBzYImx4p//yFh5DdQAKoacnwHGA0ezgMoK6Ddgs4VF514G1ttv10OOSgPtgJ7AH0AxY2gisCwNVBZA+rqldtBtYIZjYoP7+yHtcKAqsALoYXsXAVOS7NIAdQX+gy/ycBDoBzzOAMTf8oMxM8Z+nAwsjjsjCVBt4CxQCtgHCNzHHMH429cAIyx8OmtvrlW2A+jr8uAm0MhjRh/RGrjmHITzJwmvckkstwEUehXA27BBHEPSl+O2uRfwt/0v7VE56/0JoFWOjNV1YT9viT7S5djarIBWWYXIeUfPaCyw3HtubA5ywSV7nSMZaJsF0I/AXVdZFcxQVRKsf4Du3vNKtzdI1qygOnv5UxZ46htGhUz5cs42Kc5XPYOdQG/vWaFUSHNZP1k+ljT2FYWvKwpQ8AWSfxn7sj8VWGDWSvamjsV7uaCxvapehXuwtZdEQFLlreaoUshZeVPpctZIq0dVSgaARyx/pruPnpvG0CDgT6eoz4AyEYdLS6QpWlJwtYRc1zGrUKn+nDRA3YB/bdMvrjE+iPD2F/C7/a7EnhRiarixrIYbtZSX1Uwo16UBquVie8U2SWekN+ElkVNL0QiidcqFcDRw2hhTa3hiTM8PCahYfwiomqXYe9IAKdHFivJllts8M+YrlUf7gSbeew1mvwI/e79dAhp4z0OAjcaopOWbQS5OqdXNNYTdt4kwj8SbAyn3QtOruDxS+INurz1BQkdKRhyg9k4jDpsHAdPUl7TqO/DjLCd8dqRnmouCntfFC1EfYFf40KRur0bYwXqX3z6SgGkyEAABFLuqxjdmICFUril8kW1D+5IAybgZMM/Fe1oKQ1lebwMGAhLcFlYAeeziAKnHaFbWe1XSgSweY/ZopNX4G7ScPOqcVmV6P8DRvh14ZeKoFqISVThUNerYL1NA6mMksrNdVdW0vapYVW7simNotbtJaF7RIHXBmqDuXcGSimsKEOiLIVHUHU1AhtlgF9hoNvdHl0hQcYBUFboA+ktNVsNVQ0BzcrA01uoWIiEUE1J3f8lmgle1icRGAapnYZGhBHK35ZD0RE7FwCjTnnDzDZy9s+pUTyzwRVFaoer6P64SzKs+RtecOlbmKnldpW/Z+PsiP4WQdg3Kz5kFsvkOKI2+QsfQZ+jWviUaT+1zAAAAAElFTkSuQmCC"/></a></div>
+            <div class="contact-box1"><a href="https://www.instagram.com/venu_developer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA5hJREFUWEftl1moTmEUhp9jDLkhY5RkJlNJpAyRKbkwS5JQppKhkHmIEJIhUxKZiVKEkDKFzFMoRRQukczfq7X1+c7+996/38W5sOp0zv/t9a39nrXe9a71F1HCrKiE4eE/oLSK5JOhFkAboB5QOi2wPf8GPAduAvey3MkCaBiwCGiQJWCCzxNgDnAgKU4SoFrATqBHgUDC66dd1kYBr+LiJgE6CfS0S5eAHcANS/2XjCDLA62A9sAEoIndOwH0yQfQAOCQXZgNLMsIIMmtHLAWGG9OA4HD4YVcGVK9xRnVe0gBYLoCw4EawHHL8nWgJfDYy9jvV8QBagbcN4/OwIUCAE0E1gdlGgHssrO6wEs/fhwgv1xKcy6+VAamAR2A1sAP4BZwBVgJfLDs7rMXqkFEZmVeFZD1s8wlZkg13gi8A6rlyE5368DaOZ6/AEYC511pJBvVLetnHNhKwHu7pwzqXYmAZgArgKdAw5gXdgHOeedngTtAGcc5lbub96yTk42LQQxV5budzQKWpwGaa0J418jn+6tMD4A6lkERVrrim6RiD1DFVLo58DHw+WpqP8/9XpwGaIHjw3xA3dAuCDQG2Gpn0hHpSZyppQ/aA5UuInHkK14qo5kALTRHkVOE9W07MNoJ5mWgYw4w0bHml8i+yUTRd//ktE2imQmQ5pbKdtsC+oEemnaolSenANoCjM0RRx1Y0aihavy2uLaPSvYIaBq8VGeNXfdtcByalAJos5tX44xz4pFv6jJ1m/ijLGUCJPKGgfYCQ01rwnKG+KRJmmPij3jkm0hewR3onxdF/hrQTG+uFRM1L+5gl9399nkqsCYA9Bkoa9RYkgZINRXyuJLVtGlfFXjrtEpj4FTwst5OjXdb27826ZDIRlbKAdHiJis2uOM4JKelwLMcS1mvoN2ThFEi6YuoQIjMIrVMo2d1Wob+9egIueWPDu1IkoVEDvV37X7UhqW0Imm4asxo+dKurXEQDtcQjD7Xt+zrbw3yI2mAtNVJb2SFrh9xgPz1Q18colXnl2/agibCRmtsXPB8zzQurpngvrHF7Y8YuQD19fYU6YR+tO8UYuEKG7saJy35Wl8HGYKrbsJvsyVfW4CmdRaLlnwN6Sle1ypG27g4SYDUnqu8pTwLgCw+2gLUXb42JXZZGFQcWud2nEZZ3pbgo4VvuuvIY0lxsnxzje6XmK/SBSYmv+v5ZCi/yH/p/R9QWuJ+ArGquSWsrGisAAAAAElFTkSuQmCC"/></a></div>
+            <div class="contact-box1"><a href="https://t.me/Venu"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAqxJREFUWEftl0uojVEUx383FBLlcZWBPEqRgYi6EQOR5JHyTHlzhZIiAyVFSJIy8MpAkXckrygTjwyUgQEzCRMkr4k891/r3Pb97O/b3znfOccdnFW37jl77W//vrX+a+11muhg1tTBeGgAxTLSiJBFqBMwExjp/i4Cz0uRq3eEhgGrgCVAf4N46/1fF1F3B+YCa4DxAQ19APrUI0ItwEpgAdAjQ8z3gIm1AuoLLANWAMNjFWXr+4Et1QSSQKcbyGxAn5P2EdgISEPbEotK56VqAA0xgS4FBmRE4xSwCdgKbA74DXSpfVUpUDdgnmmjLe8pMC+B5cB94LTtS7q+A5r9L/OW/TiDWAj0jGjjh/M54Hx2wN8qvgFMStlzFVCa2ywLqDegdEigamB57LH5PwX6AbeBURkbpafdMaBpwGpgFtA5D4XTxlcT6yHgNzDU9Zw7wODI/smu5O9mAd0EBFSOXQfWOoG/tk1jgFuAWkDMlP4vWUAnLOSxB2ldgtwAnPecp7oUXQEk/pg9c3tHJJ1CGhrkLjuJV9U0OvBUpeSYlfEnb32xS9HJlD4UgpOvmmg7i1WZeoTg1LzGumtAbyWRP0o8Rz1mj1VVLDKl9XXuUj1cLpDvr8i9ceL97n2pF5KQ1+el8PwU/SdFgJJ7uwAXkn0kJ5heqivwq5pAU6zP5GRo5/YwZRQpNA/Ndzf6uUpogIN2v/2zPSbqrPNagSMVAi0Czob2FgFSZe31HnrN9aX3oVIOHKxJ4UW1gfZ5g5W69RyrQKVSDTZtSvwM9EqLbJEIHbd56DIgCN3yJVOL0K8JXSNJE/yMWgDpwG/2C+Jn4ABdzLuso/vL210331kLoLx61iB3xpsqJwAP/ieQztZspZFGs/XRrDcpoqG8ESrLrwEUC1cjQrEI/QGrDmAlmlZjNgAAAABJRU5ErkJggg=="/></a></div>
+        </div>
+
+    </div>
+    <div id="about">
+        <p class="about-title">ABOUT ME!</p>
+        <div class="about-container">
+            <div class="about-box">
+                <div class="about-icon">🎓</div>
+                <p>School Education</p>
+                <p>Non-CS Student</p>
+                <p><a href="img/10th.jpg">Check</a></p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">📚</div>
+                <p>Current Studies</p>
+                <p>Bachelor’s in IT</p>
+                <p ><a href="img/1st.jpg">Sem 1</a></p>
+                <p><a href="img/2nd.jpg">Sem 2</a></p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">💻</div>
+                <p>Skills Learning</p>
+                <p>Python, VB.Net, C++</p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">🛠</div>
+                <p>Tools Used</p>
+                <p>VS Code, Git, Figma</p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">🏆</div>
+                <p>Competitions</p>
+                <p>10+ Technical Competitions</p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">⚽🏐🏏</div>
+                <p>Hobbies & Activities</p>
+                <p>Volleyball, Football, Cricket</p>
+            </div>
+        </div>
+        <a href="img/resume.pdf" class="resume-btn">Personal Info</a>
+    </div>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
